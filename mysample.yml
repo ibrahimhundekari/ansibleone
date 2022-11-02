@@ -5,8 +5,8 @@
         - name: i want to install tree
           apt:
               name: tree
-              state: absent
+              state: present
         - name: i want to install wget
           apt: 
               name: wget
-              state: absent      
+              state: present   
