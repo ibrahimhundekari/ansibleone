@@ -4,5 +4,8 @@
   tasks:
         - name: i want to install webserver on ubuntu node
           apt:
-             name: apache2
-             tasks: present
+              name: apache2
+              state: present 
+
+    
+ 
